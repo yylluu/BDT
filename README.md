@@ -1,9 +1,9 @@
-Proof-of-Concept implementation for Bolt-Dumbo Transformer. 
+Proof-of-Concept implementation for practical dual-mode asynchronous BFT consensus framework Bolt-Dumbo Transformer (BDT). 
 The code is forked from the implementation of Honeybadger-BFT protocol.
-The pessimistic fallback path is instantiated by Dumbo-2 (Guo et al. CCS'2020).
-So this codebase also includes a PoC implementation for Dumbo-2 as a by-product.
+The pessimistic fallback path is instantiated by Dumbo-2 (Guo et al. CCS'2020),
+so the codebase also includes a PoC implementation for Dumbo-2 as a by-product.
 
-1. To run the benchmarks at your machine (with Ubuntu 18.84 LTS), first install all dependencies as follows:
+1. To run the benchmarks at your local machine (with Ubuntu 18.84 LTS), first install all dependencies as follows:
     ```
     sudo apt-get update
     sudo apt-get -y install make bison flex libgmp-dev libmpc-dev python3 python3-dev python3-pip libssl-dev
